@@ -1,0 +1,42 @@
+.mechineLearning{
+display: block;
+}
+
+.fullStack{
+    display: none;
+    }
+    .fltr{
+        display: none;
+    }
+    .graphics{
+        display: none;
+    }
+    .figma{
+        display: none;
+    }
+    .devOpsAws{
+        display: none;
+    }
+    .logoBestWay{
+        height: 100px;
+         width: 100px;
+        border-bottom: 2px solid white;
+    }
+
+    
+    
+
+    @media only screen and (max-width: 600px) {
+        .logoBestWay {
+            height: 40px;
+            width: 40px;
+        }
+        .logo{
+            font-size:20px !important;
+        }
+      }
+
+
+    .active {
+        display: block;
+    }
